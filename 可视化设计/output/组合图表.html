@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/ResizeSensor.js"></script>
+
+            <link rel="stylesheet"  href="https://assets.pyecharts.org/assets/jquery-ui.css">
+
+</head>
+<body>
+    <style>.box {  }; </style>
+        <button onclick="downloadCfg()">Save Config</button>
+    <div class="box">
+                <div id="4fea9d179e3247428dbe503e4914e771" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_4fea9d179e3247428dbe503e4914e771 = echarts.init(
+            document.getElementById('4fea9d179e3247428dbe503e4914e771'), 'white', {renderer: 'canvas'});
+        var option_4fea9d179e3247428dbe503e4914e771 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u4ea7\u54c1\u9500\u91cf",
+            "legendHoverLink": true,
+            "data": [
+                11,
+                11,
+                16,
+                28,
+                26,
+                2,
+                15,
+                17,
+                4,
+                17,
+                12,
+                17,
+                27,
+                10,
+                28,
+                4,
+                22,
+                25,
+                24,
+                23,
+                25,
+                8,
+                25,
+                24,
+                30,
+                27,
+                25,
+                9,
+                13,
+                21
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u4ea7\u54c1\u9500\u91cf"
+            ],
+            "selected": {
+                "\u4ea7\u54c1\u9500\u91cf": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "0\u5929",
+                "1\u5929",
+                "2\u5929",
+                "3\u5929",
+                "4\u5929",
+                "5\u5929",
+                "6\u5929",
+                "7\u5929",
+                "8\u5929",
+                "9\u5929",
+                "10\u5929",
+                "11\u5929",
+                "12\u5929",
+                "13\u5929",
+                "14\u5929",
+                "15\u5929",
+                "16\u5929",
+                "17\u5929",
+                "18\u5929",
+                "19\u5929",
+                "20\u5929",
+                "21\u5929",
+                "22\u5929",
+                "23\u5929",
+                "24\u5929",
+                "25\u5929",
+                "26\u5929",
+                "27\u5929",
+                "28\u5929",
+                "29\u5929"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u67f1\u72b6\u56fe",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "filterMode": "filter"
+        }
+    ]
+};
+        chart_4fea9d179e3247428dbe503e4914e771.setOption(option_4fea9d179e3247428dbe503e4914e771);
+    </script>
+<br/>                <div id="e9843b34fa8c44e98894d5e0632321a3" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_e9843b34fa8c44e98894d5e0632321a3 = echarts.init(
+            document.getElementById('e9843b34fa8c44e98894d5e0632321a3'), 'white', {renderer: 'canvas'});
+        var option_e9843b34fa8c44e98894d5e0632321a3 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "\u76ee\u6807\u4ea7\u54c1A\u7684\u9500\u91cf",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "\u5c0f\u7c73",
+                    149
+                ],
+                [
+                    "\u4e09\u661f",
+                    55
+                ],
+                [
+                    "\u534e\u4e3a",
+                    70
+                ],
+                [
+                    "\u82f9\u679c",
+                    140
+                ],
+                [
+                    "\u9b45\u65cf",
+                    73
+                ],
+                [
+                    "VIVO",
+                    100
+                ],
+                [
+                    "OPPO",
+                    55
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "markPoint": {
+                "label": {
+                    "show": true,
+                    "position": "inside",
+                    "color": "#fff",
+                    "margin": 8
+                },
+                "data": [
+                    {
+                        "type": "min"
+                    }
+                ]
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u76ee\u6807\u4ea7\u54c1B\u7684\u9500\u91cf",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "\u5c0f\u7c73",
+                    82
+                ],
+                [
+                    "\u4e09\u661f",
+                    62
+                ],
+                [
+                    "\u534e\u4e3a",
+                    144
+                ],
+                [
+                    "\u82f9\u679c",
+                    48
+                ],
+                [
+                    "\u9b45\u65cf",
+                    24
+                ],
+                [
+                    "VIVO",
+                    98
+                ],
+                [
+                    "OPPO",
+                    101
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "markPoint": {
+                "label": {
+                    "show": true,
+                    "position": "inside",
+                    "color": "#fff",
+                    "margin": 8
+                },
+                "data": [
+                    {
+                        "type": "max"
+                    }
+                ]
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u76ee\u6807\u4ea7\u54c1A\u7684\u9500\u91cf",
+                "\u76ee\u6807\u4ea7\u54c1B\u7684\u9500\u91cf"
+            ],
+            "selected": {
+                "\u76ee\u6807\u4ea7\u54c1A\u7684\u9500\u91cf": true,
+                "\u76ee\u6807\u4ea7\u54c1B\u7684\u9500\u91cf": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "\u5c0f\u7c73",
+                "\u4e09\u661f",
+                "\u534e\u4e3a",
+                "\u82f9\u679c",
+                "\u9b45\u65cf",
+                "VIVO",
+                "OPPO"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u6298\u7ebf\u56fe",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_e9843b34fa8c44e98894d5e0632321a3.setOption(option_e9843b34fa8c44e98894d5e0632321a3);
+    </script>
+<br/>    </div>
+    <script>
+            $('#4fea9d179e3247428dbe503e4914e771').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#4fea9d179e3247428dbe503e4914e771>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#4fea9d179e3247428dbe503e4914e771'), function() { chart_4fea9d179e3247428dbe503e4914e771.resize()});
+            $('#e9843b34fa8c44e98894d5e0632321a3').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#e9843b34fa8c44e98894d5e0632321a3>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#e9843b34fa8c44e98894d5e0632321a3'), function() { chart_e9843b34fa8c44e98894d5e0632321a3.resize()});
+            var charts_id = ['4fea9d179e3247428dbe503e4914e771','e9843b34fa8c44e98894d5e0632321a3'];
+function downloadCfg () {
+    const fileName = 'chart_config.json'
+    let downLink = document.createElement('a')
+    downLink.download = fileName
+
+    let result = []
+    for(let i=0; i<charts_id.length; i++) {
+        chart = $('#'+charts_id[i])
+        result.push({
+            cid: charts_id[i],
+            width: chart.css("width"),
+            height: chart.css("height"),
+            top: chart.offset().top + "px",
+            left: chart.offset().left + "px"
+        })
+    }
+
+    let blob = new Blob([JSON.stringify(result)])
+    downLink.href = URL.createObjectURL(blob)
+    document.body.appendChild(downLink)
+    downLink.click()
+    document.body.removeChild(downLink)
+}
+    </script>
+</body>
+</html>
